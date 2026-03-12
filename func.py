@@ -4,6 +4,6 @@ def suma(a, b, c =0, d = 0):
     elif c != 0:
         return a + b + c
     else:
-        return a + b
+        return a + c
     
 print(suma(1,2,3,4))
